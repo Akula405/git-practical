@@ -1,0 +1,43 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+li {
+  list-style: none;
+  margin: 20px;
+}
+ul {
+  display: flex;
+}
+.hamburg {
+  display: none;
+}
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  ul {
+    display: none;
+  }
+
+  .hamburg {
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}

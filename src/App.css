@@ -44,3 +44,8 @@ button {
   width: 500px;
   border: 1px solid grey;
 }
+.sgtn-bg {
+  background-color: rgb(255, 127, 138);
+  height: 100vh;
+  background-size: cover;
+}

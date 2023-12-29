@@ -1,0 +1,15 @@
+input {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+button {
+  background-color: blue;
+  color: white;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 5px;
+}
+h2 {
+  margin-bottom: 25px;
+}
